@@ -65,7 +65,7 @@ public class HomePageScooter {
         } else {
             ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();",
                     driver.findElement(downOrderButton));
-                    driver.findElement(downOrderButton).click();
+            driver.findElement(downOrderButton).click();
         }
     }
 }
